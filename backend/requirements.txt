@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic
+pgvector
+python-dotenv
+sentence-transformers==2.7.0
+transformers==4.41.2
