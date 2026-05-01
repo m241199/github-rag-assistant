@@ -35,15 +35,6 @@ CHAT_MODEL=gemini-2.5-flash-lite
 
 `GEMINI_API_KEY` is only required for generated answers. Repository indexing and retrieval work with local embeddings without any paid OpenAI API calls.
 
-## Public Repository Notes
-
-This project is safe to share publicly as long as secrets stay out of git.
-
-- Commit `.env.example`, but do not commit `.env`.
-- Put real values such as `GEMINI_API_KEY`, `GITHUB_TOKEN`, hosted database URLs, and passwords only in your local `.env` or deployment secret manager.
-- If a secret is accidentally committed, rotate that key or password before making the repository public.
-- The included Docker Compose file is for local development. Review credentials, CORS, and deployment settings before using it on a public server.
-
 ## Database Options
 
 ### Option A: Hosted Postgres, Recommended for Local Development
